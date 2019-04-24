@@ -40,22 +40,22 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment by {fields.name}"
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields          : #['name', 'email', 'url', 'message']
+  branch                 : #"master"
+  commitMessage          : #"New comment by {fields.name}"
+  filename               : #comment-{@timestamp}
+  format                 : #"yml"
+  moderation             : #true
+  path                   : #"/_data/comments/{options.slug}" (default)
+  requiredFields         : #['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : #"md5"
   generatedFields:
     date:
-      type               : "date"
+      type               : #"date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
   endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
@@ -109,7 +109,7 @@ author:
   name             : "HOUNGA13"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "느린 개발의 기록"
-  location         : "Republic of Korea."
+  location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
