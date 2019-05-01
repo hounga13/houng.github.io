@@ -1,6 +1,6 @@
 # main links
 main:
   - title: "Intro" # 네비게이션 바에 표시 되는 이름
-    url: "/intro/" # 클릭시 이동할 URL
+    url: "/intro/first-post" # 클릭시 이동할 URL
   - title: "Blog"
     url: /blog/
